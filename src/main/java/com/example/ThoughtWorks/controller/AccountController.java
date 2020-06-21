@@ -23,10 +23,10 @@ public class AccountController {
     }
 
 
-    @PostMapping("/create")
+    @PostMapping("")
     @ResponseBody
     @ResponseStatus(HttpStatus.CREATED)
-    public void createAccount(@RequestBody Account account) {
-        accountService.creatAccount(account);
+    public int createAccount(@RequestBody Account account) {
+        return accountService.creatAccount(account);
     }
 }
