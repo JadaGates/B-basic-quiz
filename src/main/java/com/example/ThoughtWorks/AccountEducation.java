@@ -1,5 +1,8 @@
 package com.example.ThoughtWorks;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jdk.internal.jline.internal.Nullable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,5 +15,4 @@ public class AccountEducation {
     private String title;
     private String description;
     private Long userId;
-
 }
