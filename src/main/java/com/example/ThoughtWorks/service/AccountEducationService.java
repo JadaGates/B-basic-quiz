@@ -47,6 +47,7 @@ public class AccountEducationService {
         }else
         {
             List<AccountEducation> temp = new ArrayList<>();
+            accountEducation.setUserId((long) id);
             temp.add(accountEducation);
             accountEducationMap.put(id, temp);
         }
