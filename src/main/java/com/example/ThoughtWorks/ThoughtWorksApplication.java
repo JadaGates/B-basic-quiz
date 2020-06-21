@@ -14,16 +14,4 @@ public class ThoughtWorksApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ThoughtWorksApplication.class, args);
 	}
-
-	@RestController
-	@CrossOrigin(origins = "http://localhost:1234")
-	public class DemoApplication {
-
-		@GetMapping("/user/{id}")
-		public String hello(@PathVariable String id) {
-			String result = "Hello User " + id;
-			return result;
-		}
-	}
-
 }
