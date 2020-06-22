@@ -1,6 +1,5 @@
 package com.example.ThoughtWorks.service;
 
-import com.example.ThoughtWorks.Account;
 import com.example.ThoughtWorks.AccountEducation;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.stereotype.Service;

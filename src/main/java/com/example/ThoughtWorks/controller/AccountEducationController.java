@@ -2,10 +2,6 @@ package com.example.ThoughtWorks.controller;
 
 import com.example.ThoughtWorks.AccountEducation;
 import com.example.ThoughtWorks.service.AccountEducationService;
-import com.example.ThoughtWorks.service.AccountService;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
