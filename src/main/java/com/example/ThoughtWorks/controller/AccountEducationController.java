@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:1234")
-@RequestMapping("/user")
+@RequestMapping("/users")
 public class AccountEducationController {
 
     private final AccountEducationService accountEducationService;
